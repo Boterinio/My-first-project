@@ -29,7 +29,6 @@ int main()
 			printf("\n");
 		}while(choice != '1' && choice != '2' && choice != '3' && choice != '4');
 		choice -= 48;//for example the value of '1' in ascii equal 49 so to get 1 we need to subtract 48
-		printf("%d\n",code);
 		switch(choice)
 		{
 			case easy:
